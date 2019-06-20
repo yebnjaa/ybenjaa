@@ -1,0 +1,217 @@
+/* For mobile phones: */
+body{
+    margin: 0px;
+    margin-top: -16px;
+}
+header{
+    padding: 0px;
+}
+header .cover{
+    background-image: url(https://images.pexels.com/photos/2397611/pexels-photo-2397611.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+}
+header .cover .logo{
+    width: 30%;
+    margin-left: 5%;
+}
+header .logo1{
+    width: 65%;
+}
+header .cover .leftbar{
+    text-align: center;
+}
+header .cover .rightnav{
+    margin-right: 5%;
+    display: none;
+}
+header .cover .navbar{
+    background: transparent;
+}
+header .cover .navbar .rightnav li a{
+    color:#fff;
+    text-shadow: 0.5px 0 0;
+    letter-spacing: 5px;
+}
+header .azacolor .azagry{
+    left: 57%;
+    top: 40%;
+    background: #a0a0a0;
+    width: 10rem;
+    height: 30rem;
+    border-radius: 100px;
+    opacity: 0.4;
+    left: 57%;
+     top: 40%
+}
+.ourskils{
+    width: 100%;
+    text-align: center;
+    padding-top: 4rem;
+}
+.ourskils .ourskiltitle h1 {
+    line-height: 0.8;
+}
+.ourskils .diviseur{
+width: 50%;
+margin-right: auto;
+margin-left: auto;
+}
+.ourskilsa{
+    margin-top: 4rem;
+}
+.ourskilsa .totalgrad{
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.ourskilsa .gradskils{
+    margin-right: auto;
+    margin-left: auto;
+}
+.ourskilsa  .gradskils1{
+    border-radius: 5% 0 0 0%;
+}
+.ourskilsa  .gradskils3{
+    border-radius: 00% 5% 0% 0%;
+}
+.ourskilsa  .gradskils4{
+    border-radius: 0% 0 0 5%;
+}
+.ourskilsa  .gradskils6{
+    border-radius: 00% 0% 5% 0%;
+}
+.ourskils span svg{
+    width: 80px;
+    height: 80px;
+    color: #0f6ecd;
+}
+.sourndyourself{
+    margin-top: 5rem;
+}
+.sourndyourself .cover{
+    background-image: url(https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?cs=srgb&dl=adults-brainstorming-desk-1595385.jpg&fm=jpg);
+    width: 100%;
+    height: 60vh;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+}
+.sourndyourself .sourndtext{
+    text-align: center;
+    padding-top: 6rem;
+}
+.sourndyourself .sourndtext h5{
+    color: #aaa;
+    font-family: 'Droid Serif', serif;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 1.48;
+    margin: 0 0 15px 0;
+}
+.sourndyourself .sourndtext h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+    letter-spacing: -1px;
+    color: #fff;
+}
+.change{
+    margin-top: 5rem;
+}
+.change .cover{
+    background-image: url(https://images.pexels.com/photos/356043/pexels-photo-356043.jpeg?cs=srgb&dl=black-and-white-blackboard-chalkboard-356043.jpg&fm=jpg);
+    width: 100%;
+    height: 40vh;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+}
+.change .sourndtext{
+    text-align: center;
+    padding-top: 6rem;
+}
+.change .sourndtext h5{
+    color: #aaa;
+    font-family: 'Droid Serif', serif;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 1.48;
+    margin: 0 0 15px 0;
+}
+.change .sourndtext h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+    letter-spacing: -1px;
+    color: #fff;
+}
+.ourphilosphi{
+    text-align: center;
+    margin-top: 5rem;
+}
+.ourphilosph{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.ourphilosph span svg{
+    width: 52px;
+    height: 52px;
+    color: #1e87f0;
+}
+.ourteam{
+    text-align: center;
+    padding-top: 5rem;
+}
+.ourteam .uk-divider-icon {
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.ourteam .team{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.ourteam .team .eachteam{
+    width: 58%;
+    text-align: justify;
+}
+.ourteam .team .eachteamimage{
+    width: 38%;
+}
+.ourteam .team .eachteam1{
+    float: left;
+}
+.ourteam .team .eachteam2{
+    float: right;
+}
+.ourteam .team .eachteamimage1{
+    float: right;
+}
+.ourteam .team .eachteamimage2{
+    float: left;
+}
+.ourteam .team h3{
+    font-family: 'Droid Serif', serif;
+    font-size: 30px;
+    font-style: italic;
+    color: #aaa;
+}
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+    header .cover .logo{
+        width: 15%;
+    }
+    header .cover .rightnav{
+        margin-right: 5%;
+        display: block;
+    }
+    header .cover .leftbar{
+        text-align: left;
+    }
+}
